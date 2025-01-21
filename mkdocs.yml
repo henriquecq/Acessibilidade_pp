@@ -1,37 +1,41 @@
-site_name: Mkdocs Guia de Acessibilidade
+site_name: Guia de Acessibilidade do Vestibulando
 site_url: https://henriquecq.github.io/Guia_de_Acessibilidade-IHC/
 theme:
   name: material
+  palette: 
+    - scheme: red
+      toggle:
+        icon: material/lightbulb 
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
   features:
     - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.expand
+    # - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  language: en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime
-    - scheme: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: indigo
-      accent: pink
-    - scheme: green
+    - search.share
+
+plugins:
+  - search
+  #- tags
+
+nav:
+  - Sobre: guia.md
+  - Desenvolvimento Web: Desenvolvimento_web/desenvolvimento_web.md
+  - Design: Design/design.md
+  - Conteúdo: Conteudo/conteudo.md
+  - Gestão de Projetos: Gestao_de_Projetos/gestao_de_projetos.md
+  - Ferramentas: Ferramentas/ferramentas.md
+
     
 
