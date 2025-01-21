@@ -1,8 +1,13 @@
 # Sobre
 
+<div align="center">
+<img src="imagens/logo.png" alt="Logo Acessibilidade++" style="width: 300px">
+</div>
+
+
 ## Descrição
 
-O Guia de Acessibilidade do Vestibulando é um projeto criado na matéria de Interação Humano Computador, ministrada pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). O projeto tem por objetivo fornecer um guia de acessibilidade de bolso, que de forma prática e rápida possa ser consultado por pessoas que desejam criar ou adaptar um site para que ele seja acessível a todos. O guia foi desenvolvido com base nas diretrizes de acessibilidade da W3C e no modelo de acessibilidade de governo eletrônico (eMAG). 
+O projeto Acessibilidade++ foi criado como projeto final da matéria de Interação Humano Computador, ministrada pela docente Rejane Maria da Costa Figueiredo, na Universidade de Brasília (UnB). O projeto tem por objetivo fornecer um guia de acessibilidade de bolso, que de forma prática e rápida possa ser consultado por quem deseje criar ou adaptar um site de forma a torná-lo acessível a todos. O guia foi desenvolvido com base nas diretrizes de acessibilidade da W3C, no modelo de acessibilidade de governo eletrônico (eMAG) e no Apple Accessibility Programming Guide.
 
 ## Contribuidores
 
@@ -16,6 +21,3 @@ O Guia de Acessibilidade do Vestibulando é um projeto criado na matéria de Int
   </tr>
 </table>
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md]

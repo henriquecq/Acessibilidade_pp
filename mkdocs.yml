@@ -1,9 +1,10 @@
-site_name: Guia de Acessibilidade do Vestibulando
-site_url: https://henriquecq.github.io/Guia_de_Acessibilidade-IHC/
+site_name: Acessibilidade++
+site_url: https://henriquecq.github.io/Acessibilidade_pp/
 theme:
   name: material
+  logo: imagens/logo.png
   palette: 
-    - scheme: red
+    - scheme: default
       toggle:
         icon: material/lightbulb 
         name: Switch to dark mode
@@ -24,18 +25,33 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+  extra:
+    toc: false
 
 plugins:
   - search
-  #- tags
+  - tags
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+extra_javascript:
+  - js/checklist.js
+
+extra_css:
+  - css/checklist.css
 
 nav:
-  - Sobre: guia.md
-  - Desenvolvimento Web: Desenvolvimento_web/desenvolvimento_web.md
-  - Design: Design/design.md
-  - Conteúdo: Conteudo/conteudo.md
-  - Gestão de Projetos: Gestao_de_Projetos/gestao_de_projetos.md
-  - Ferramentas: Ferramentas/ferramentas.md
+  - Sobre: index.md
+  - Desenvolvimento Web: desenvolvimento/desenvolvimento_web.md
+  - Design: design/design.md
+  - Conteúdo: conteudo/conteudo.md
+  - Gestão de Projetos: gp/gestao_de_projetos.md
+  - Ferramentas: ferramentas/ferramentas.md
 
     
 
