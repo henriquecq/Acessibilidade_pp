@@ -47,11 +47,11 @@ extra_css:
 
 nav:
   - Sobre: index.md
+  - Arquitetura Visual: arquitetura_visual/arquitetura_visual.md
   - Desenvolvimento Web: desenvolvimento/desenvolvimento_web.md
-  - Design: design/design.md
   - Conteúdo: conteudo/conteudo.md
   - Gestão de Projetos: gp/gestao_de_projetos.md
   - Ferramentas: ferramentas/ferramentas.md
 
-    
+  
 
