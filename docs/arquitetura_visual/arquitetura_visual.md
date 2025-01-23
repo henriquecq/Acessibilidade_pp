@@ -17,7 +17,7 @@
 
 <p style="text-align: justify;">
   <p style="text-indent: 30px;">
-    Agora abaixo serão apresentados tudo que se é necessário para ter um design acessível em um site desenvolvido. 
+    Abaixo, será apresentados tudo que é necessário para ter um design acessível em um site desenvolvido. 
   </p>
 </p>
 
@@ -108,6 +108,53 @@
 ### 2.12. Modais
 <ul class="checklist">
     <li><input type="checkbox" id="task1"><label for="task1"> Modais são usados com cautela e têm opções claras para fechar. </label></li>
-    <li><input type="checkbox" id="task2" checked><label for="task2"> Mensagens de erro são visíveis e compreensíveis, localizadas próximas aos campos problemáticos. </label></li>
-    <li><input type="checkbox" id="task3"><label for="task3">  O preenchimento de formulários é facilitado, evitando campos desnecessários.</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> A interação com modais é acessível via teclado. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">   O conteúdo em modais é breve e direto. </label></li>
 </ul>
+
+### 2.13 Elementos Visuais 
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> O design permite que o elemento com foco seja visualmente evidente (ex: bordas ou sombras).</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Não são utilizados apenas cores ou características sensoriais para diferenciar elementos. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">   O redimensionamento da página não resulta em perda de funcionalidade ou sobreposição de elementos. </label></li>
+</ul>
+
+
+## **3. Bibliografia**
+
+
+- 3.1. Acessibilidade Legal: Acessibilidade Legal. Disponível em: http://www.acessibilidadelegal.com/. Acesso em: 23 jan. 2025.
+
+- 3.2. Acesso Digital: Acesso Digital. Disponível em: http://acessodigital.net/. Acesso em: 23 jan. 2025.
+
+- 3.3. Cartilha de Codificação do ePWG: ePWG - Cartilha de Codificação. Disponível em: http://www.governoeletronico.gov.br/eixos-de-atuacao/governo/epwg-padroes-web-em-governo-eletronico/cartilha-de-codificacao. Acesso em: 23 jan. 2025.
+
+- 3.4. Modelo de Acessibilidade em Governo Eletrônico (eMAG): eMAG - Modelo de Acessibilidade em Governo Eletrônico. Disponível em: http://www.governoeletronico.gov.br/eixos-de-atuacao/governo/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico. Acesso em: 23 jan. 2025.
+
+- 3.5. W3C: W3C - World Wide Web Consortium. Disponível em: http://w3c.br/. Acesso em: 23 jan. 2025.
+
+- 3.6. WCAG: WCAG - Web Content Accessibility Guidelines. Disponível em: http://www.w3.org/TR/#tr_Accessibility__All. Acesso em: 23 jan. 2025.
+
+- 3.7. WAI-ARIA: WAI-ARIA - Accessible Rich Internet Applications. Disponível em: http://w3.org/standards/techs/aria#w3c_all. Acesso em: 23 jan. 2025.
+
+- 3.8. Accessibility Insights for Web: Accessibility Insights for Web. Disponível em: https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni?hl=en. Acesso em: 23 jan. 2025.
+
+- 3.9. Google Lighthouse: Google Lighthouse. Disponível em: https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk. Acesso em: 23 jan. 2025.
+
+- 3.10. No Coffee: No Coffee. Disponível em: https://addons.mozilla.org/en-US/firefox/addon/nocoffee/. Acesso em: 23 jan. 2025.
+
+- 3.11. Disable-HTML: Disable-HTML. Disponível em: https://chrome.google.com/webstore/detail/disable-html/lfhjgihpknekohffabeddfkmoiklonhm. Acesso em: 23 jan. 2025.
+
+- 3.12. Colorblindly: Colorblindly. Disponível em: https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg. Acesso em: 23 jan. 2025.
+
+- 3.13. Dark Reader: Dark Reader. Disponível em: https://addons.mozilla.org/pt-BR/firefox/addon/darkreader/. Acesso em: 23 jan. 2025.
+
+- 3.14. WAVE: WAVE - Evaluation Tool. Disponível em: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh. Acesso em: 23 jan. 2025.
+
+- 3.15. Accessibility Scanner: Accessibility Scanner. Disponível em: https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.scanner. Acesso em: 23 jan. 2025.
+
+- 3.16. Level Access: Level Access. Disponível em: https://www.levelaccess.com/. Acesso em: 23 jan. 2025.
+
+- 3.17. MDN Web Docs: MDN Web Docs. Disponível em: https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#sem%C3%A2ntica_em_html. Acesso em: 23 jan. 2025.
+
+- 3.18. Accessibility Monitor Plus: Access Monitor Plus. Disponível em: https://accessmonitor.acessibilidade.gov.pt/. Acesso em: 23 jan. 2025.
