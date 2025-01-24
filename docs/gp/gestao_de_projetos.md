@@ -1,9 +1,14 @@
 # **Gestão de Projetos**
-
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
 A gestão de projetos desempenha um papel central na implementação de acessibilidade em sites e aplicativos. Este módulo fornece diretrizes e práticas recomendadas para gerentes de projeto, garantindo que a acessibilidade seja integrada em todas as fases do ciclo de vida do desenvolvimento de produtos digitais, desde o planejamento até a entrega.
-
+  </p>
+</p>
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
 A acessibilidade digital não deve ser vista como um complemento, mas como um requisito essencial que beneficia não apenas pessoas com deficiência, mas também melhora a experiência de todos os usuários. Este módulo abrange as diretrizes estabelecidas pelas principais normas, como as Diretrizes de Acessibilidade para Conteúdo Web (WCAG), o modelo de acessibilidade de governo eletrônico (eMAG) e o Apple Accessibility Programming Guide.
-
+  </p>
+</p>
 ## **Objetivos do Módulo**
 - Garantir que a acessibilidade seja uma prioridade desde a concepção do projeto.
 - Fornecer ferramentas e práticas para facilitar o acompanhamento de requisitos de acessibilidade.
@@ -64,9 +69,11 @@ A acessibilidade digital não deve ser vista como um complemento, mas como um re
 </ul>
 
 ---
-
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
 Essa estrutura permite que gerentes de projeto liderem equipes em iniciativas acessíveis de maneira proativa e organizada, garantindo que o produto final seja inclusivo e atenda às necessidades de todos os usuários.
-
+  </p>
+</p>
 ## **Referências**
 - [Guia de Boas Práticas para Acessibilidade Digital - Programa de Cooperação entre Reino Unido e Brasil em Acesso Digital](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital)
 - [Apple Accessibility Programming Guide](https://developer.apple.com/accessibility/)
