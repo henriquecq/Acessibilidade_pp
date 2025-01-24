@@ -1,7 +1,7 @@
 # Acessibilidade++
 
 <div align="center">
-<img src="imagens/logo.png" alt="Logo Acessibilidade++" style="width: 300px">
+<img src="/docs/imagens/logo.png" alt="Logo Acessibilidade++" style="width: 300px">
 </div>
 
 ## Descrição
