@@ -3,6 +3,7 @@ site_url: https://henriquecq.github.io/Acessibilidade_pp/
 theme:
   name: material
   logo: imagens/logo.png
+  language: pt
   palette: 
     - scheme: default
       toggle:
@@ -33,11 +34,21 @@ plugins:
   - tags
 
 markdown_extensions:
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - attr_list
   - md_in_html
+  - tables
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.blocks.caption
+  
 
 extra_javascript:
   - js/checklist.js
