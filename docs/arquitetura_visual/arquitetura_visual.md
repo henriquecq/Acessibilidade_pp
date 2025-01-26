@@ -56,14 +56,14 @@
     <li><input type="checkbox" id="task3"><label for="task3"> Os elementos interativos têm áreas de clique suficientemente grandes (mínimo de 44x44 pixels).</label></li>
 </ul>
 
-### 2.5. Interface e Experiência do Usuário 
+### 2.5. 5. Recursos de Acessibilidade 
 <ul class="checklist">
     <li><input type="checkbox" id="task1"><label for="task1"> O site oferece opções de alto contraste e ajuste de tamanho de fonte. </label></li>
     <li><input type="checkbox" id="task2" checked><label for="task2">Botões de acessibilidade são facilmente identificáveis e utilizáveis.</label></li>
     <li><input type="checkbox" id="task3"><label for="task3">  Há uma página dedicada a informações sobre acessibilidade e como utilizá-las.</label></li>
 </ul>
 
-### 2.6. Recurso de Acessibilidade 
+### 2.6. Textos e Parágrafos
 <ul class="checklist">
     <li><input type="checkbox" id="task1"><label for="task1"> Os textos são alinhados à esquerda e evitam frases longas (máximo de 80 caracteres por linha). </label></li>
     <li><input type="checkbox" id="task2" checked><label for="task2"> O uso de caixa alta é limitado, e o alinhamento justificado é evitado.</label></li>
