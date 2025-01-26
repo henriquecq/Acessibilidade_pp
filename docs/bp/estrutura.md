@@ -1,4 +1,4 @@
-# **Boas Práticas**  
+# **Estrutura**  
   
 As boas práticas de design em sites e aplicativos são fundamentais para garantir que todas as pessoas, independentemente de suas habilidades ou necessidades, possam acessar e utilizar as plataformas digitais de forma eficaz. Implementar princípios de acessibilidade e inclusão não só cumpre uma responsabilidade social, mas também amplia o alcance do público e melhora a usabilidade, proporcionando uma experiência mais satisfatória para todos os usuários. Além disso, adotar essas práticas é essencial para atender a normas legais e construir uma reputação positiva de marca, refletindo um compromisso genuíno com a equidade e a diversidade no ambiente digital.  
   
@@ -82,7 +82,6 @@ As boas práticas de design em sites e aplicativos são fundamentais para garant
 
   <ul class="checklist">
     <li><input type="checkbox" id="task1"><label for="task1">Transformar imagens em palavras para ajudar pessoas com deficiência visual. </label></li> 
-  <li><input type="checkbox" id="task1"><label for="task1"> Planejar audiodescrição na fase de roteiro, garantindo tempo adequado.</label></li> 
 </ul>
 
   
