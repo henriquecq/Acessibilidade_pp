@@ -60,7 +60,7 @@ nav:
   - Sobre: index.md
   - Arquitetura Visual: arquitetura_visual/arquitetura_visual.md
   - Desenvolvimento Web: desenvolvimento/desenvolvimento_web.md
-  - Boas Práticas: bp/boas_praticas.md
+  - Estrutura: estrutura/estrutura.md
   - Gestão de Projetos: gp/gestao_de_projetos.md
   - Ferramentas: ferramentas/ferramentas.md
 
