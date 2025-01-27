@@ -24,9 +24,9 @@ Menus são usados para navegação e tem papel crítico na operabilidade da pág
 Estrutura, Estilo, Menus Dropdown e Menus de aplicação
 
 <ul class="checklist">
-    <li><input type="checkbox" id="task2" checked><label for="task2">Utiliza Lista Desordenada, tag \<ul>, a maioria dos menus de navegação usa esta abordagem, já que os itens não estão em uma ordem específica;</label></li>
-    <li><input type="checkbox" id="task1"><label for="task1">Utiliza Lista Ordenada, tag \<ol>, quando a sequência dos itens é importante</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Identifica o menu, usando a tag \<nav>, garantindo acesso direto ao menu para os usuários;</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Utiliza Lista Desordenada, tag "ul", a maioria dos menus de navegação usa esta abordagem, já que os itens não estão em uma ordem específica;</label></li>
+    <li><input type="checkbox" id="task1"><label for="task1">Utiliza Lista Ordenada, tag "ol", quando a sequência dos itens é importante</label></li>
+    <li><input type="checkbox" id="task4"><label for="task4">Identifica o menu, usando a tag "nav", garantindo acesso direto ao menu para os usuários;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Rotulado com atributos como _"aria-label"_ e _"aria-labelledby_", para diferentes menus na mesma página;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Indica a seleção atual do menu, por exemplo, com um rótulo invisível na apresentação, mas presente no documento fonte, assim sendo lido por um leitor de tela;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Indica visualmente quando o ponteiro paira sobre o menu;</label></li>
@@ -52,8 +52,8 @@ Tabelas de dados organizam os dados com relações lógicas em formato de matriz
 Tabelas sem demarcação estrutural podem criar barreiras de acessibilidade, como por exemplo, quando um leitor de tela lê em voz alta a página, normalmente seguirá a ordem do documento HTML, portanto, a ordem e organização do arquivo fonte também precisam ser construídos de forma coerente com a apresentação visual do conteúdo, para permitir renderizações alternativas da página.
 
 <ul class="checklist">
-    <li><input type="checkbox" id="task2" checked><label for="task2">Células de cabeçalho são demarcadas com a tag \<th>;</label></li>
-    <li><input type="checkbox" id="task1"><label for="task1">Células de dados são demarcadas com \<td>;</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Células de cabeçalho são demarcadas com a tag "th";</label></li>
+    <li><input type="checkbox" id="task1"><label for="task1">Células de dados são demarcadas com "td";</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Para tabelas mais complexas, o uso explícito dos atributos (_scope, id, and headers attributes_) pode ser usados.</label></li>
 </ul>
 
@@ -97,10 +97,10 @@ A semântica no desenvolvimento web consiste no uso adequado de elementos HTML p
 Um formulário bem projetado deve ser acessível, intuitivo e funcional. Para isso, é importante utilizar boas práticas, como adicionar labels associados aos campos de entrada para melhorar a navegação e a compreensão, usar `<fieldset>` e `<legend>` para estruturar seções, e incluir atributos como `aria-describedby` e `autocomplete` para melhorar a acessibilidade e usabilidade.
 
 <ul class="checklist">
-    <li><input type="checkbox" id="task2" checked><label for="task2">Adicionar `<fieldset>` e `<legend>` para organizar seções do formulário.</label></li>
-    <li><input type="checkbox" id="task1">Adicionar `<label>` para os campos de entrada, para associá-los aos elementos correspondentes.<label for="task1"></label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Adicionar o atributo `aria-describedby` para descrever os campos de entrada.</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Adicionar o atributo `autocomplete` para facilitar o preenchimento dos campos.</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Adicionar "fieldset" e "legend" para organizar seções do formulário.</label></li>
+    <li><input type="checkbox" id="task1">Adicionar "label" para os campos de entrada, para associá-los aos elementos correspondentes.<label for="task1"></label></li>
+    <li><input type="checkbox" id="task4"><label for="task4">Adicionar o atributo "aria-describedby" para descrever os campos de entrada.</label></li>
+    <li><input type="checkbox" id="task4"><label for="task4">Adicionar o atributo "autocomplete" para facilitar o preenchimento dos campos.</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Evitar o uso de Captchas.</label></li>
 </ul>
 
