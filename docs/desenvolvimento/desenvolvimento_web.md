@@ -1,11 +1,11 @@
 
-# Desenvolvimento
+# **Desenvolvimento**
 
   
 
   
 
-## Introdução
+## **Introdução**
 
   
 
@@ -17,7 +17,7 @@ Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como im
 
   
 
-## Menus [1](#1)
+## **Menus** [\[2\]](#referencias), [\[5\]](#referencias), [\[6\]](#referencias), [\[7\]](#referencias), [\[8\]](#referencias)
 
 Menus são usados para navegação e tem papel crítico na operabilidade da página web. É importante reconhecer os seguintes pontos-chave durante o desenvolvimento dos menus:
 
@@ -43,7 +43,7 @@ Menus de navegação são importantes pois refletem a estrutura arquitetural do 
 
   
 
-## Tabelas [2](#2), [3](#3)
+## **Tabelas** [\[2\]](#referencias), [\[3\]](#referencias), [\[4\]](#referencias)
 
   
 
@@ -60,7 +60,7 @@ Tabelas sem demarcação estrutural podem criar barreiras de acessibilidade, com
 
 
 
-## Textos [2](#2)
+## **Textos** [\[2\]](#referencias)
 Textos bem estruturados e semanticamente organizados são essenciais para a acessibilidade, pois garantem que leitores de tela interpretem corretamente o conteúdo. Um bom desenvolvimento textual facilita a navegação, tornando a página acessível a diferentes públicos.
 
 <ul class="checklist">
@@ -70,7 +70,7 @@ Textos bem estruturados e semanticamente organizados são essenciais para a aces
 
 
  
-## Imagens [2](#2)
+## **Imagens** [\[2\]](#referencias)
 Imagens acessíveis dependem de um bom desenvolvimento estrutural, como o uso de textos alternativos (alt text) que descrevem seu conteúdo para leitores de tela. Essa prática garante que informações visuais sejam compreendidas por pessoas com deficiência visual e melhora a navegação para todos, promovendo uma experiência mais inclusiva.
 
 <ul class="checklist">
@@ -80,7 +80,7 @@ Imagens acessíveis dependem de um bom desenvolvimento estrutural, como o uso de
 
 
 
-## Semântica [2](#2)
+## **Semântica** [\[2\]](#referencias)
 A semântica no desenvolvimento web consiste no uso adequado de elementos HTML para representar o significado do conteúdo, promovendo acessibilidade, SEO e organização clara. Tags como `<header>` e `<main>` tornam o código mais intuitivo e fácil de interpretar por tecnologias assistivas e navegadores.
 
 <ul class="checklist">
@@ -93,7 +93,7 @@ A semântica no desenvolvimento web consiste no uso adequado de elementos HTML p
 
 
 
-## Formulários [2](#2)
+## **Formulários** [\[2\]](#referencias)
 Um formulário bem projetado deve ser acessível, intuitivo e funcional. Para isso, é importante utilizar boas práticas, como adicionar labels associados aos campos de entrada para melhorar a navegação e a compreensão, usar `<fieldset>` e `<legend>` para estruturar seções, e incluir atributos como `aria-describedby` e `autocomplete` para melhorar a acessibilidade e usabilidade.
 
 <ul class="checklist">
@@ -106,16 +106,22 @@ Um formulário bem projetado deve ser acessível, intuitivo e funcional. Para is
 
 
 
-## Referências
+## **Referências**
 
   
 
 1. Design & Develop/Tutorials/Menus. Disponível em: [https://www.w3.org/WAI/tutorials/menus/](https://www.w3.org/WAI/tutorials/menus/). Acesso em: 26 Jan. 2025.
 
-  
-
 2. Guia de Boas Práticas para Acessibilidade Digital 2023 (Página 34). Disponível em [https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/guiaboaspraaticasparaacessibilidadedigital.pdf). Acesso em: 26 Jan. 2025.
 
-  
-
 3. Design & Develop/Tutorials/Tables. Disponível em: [https://www.w3.org/WAI/tutorials/tables/](https://www.w3.org/WAI/tutorials/tables/). Acesso em: 26 Jan. 2025.
+
+4. Design & Develop/Tutorials/Tables/one-header/. Disponível em [https://www.w3.org/WAI/tutorials/tables/one-header/](https://www.w3.org/WAI/tutorials/tables/one-header/). Acesso em: 26 Jan. 2025.
+
+5. Design & Develop/Tutorials/menus/structure/. Disponível em [https://www.w3.org/WAI/tutorials/menus/structure/](https://www.w3.org/WAI/tutorials/menus/structure/). Acesso em: 26 Jan. 2025.
+
+6. Design & Develop/Tutorials/menus/structure/. Disponível em [https://www.w3.org/WAI/tutorials/menus/structure/](https://www.w3.org/WAI/tutorials/menus/structure/). Acesso em: 26 Jan. 2025.
+
+7. Design & Develop/Tutorials/menus/flyout/. Disponível em [https://www.w3.org/WAI/tutorials/menus/flyout/](https://www.w3.org/WAI/tutorials/menus/flyout/). Acesso em: 26 Jan. 2025.
+
+8. Design & Develop/Tutorials/menus/application-menus/. Disponível em [https://www.w3.org/WAI/tutorials/menus/structure/](https://www.w3.org/WAI/tutorials/menus/application-menus/). Acesso em: 26 Jan. 2025.
