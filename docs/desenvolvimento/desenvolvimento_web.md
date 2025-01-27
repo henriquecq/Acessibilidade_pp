@@ -17,7 +17,7 @@ Nessa fase, é importante garantir que a equipe de desenvolvimento saiba como im
 
   
 
-## **Menus** [\[2\]](#referencias), [\[5\]](#referencias), [\[6\]](#referencias), [\[7\]](#referencias), [\[8\]](#referencias)
+## **Menus** <sup>[\[2\]](#referencias), [\[5\]](#referencias), [\[6\]](#referencias), [\[7\]](#referencias), [\[8\]](#referencias)</sup>
 
 Menus são usados para navegação e tem papel crítico na operabilidade da página web. É importante reconhecer os seguintes pontos-chave durante o desenvolvimento dos menus:
 
@@ -43,7 +43,7 @@ Menus de navegação são importantes pois refletem a estrutura arquitetural do 
 
   
 
-## **Tabelas** [\[2\]](#referencias), [\[3\]](#referencias), [\[4\]](#referencias)
+## **Tabelas** <sup>[\[2\]](#referencias), [\[3\]](#referencias), [\[4\]](#referencias)</sup>
 
   
 
@@ -60,7 +60,7 @@ Tabelas sem demarcação estrutural podem criar barreiras de acessibilidade, com
 
 
 
-## **Textos** [\[2\]](#referencias)
+## **Textos** <sup>[\[2\]](#referencias)</sup>
 Textos bem estruturados e semanticamente organizados são essenciais para a acessibilidade, pois garantem que leitores de tela interpretem corretamente o conteúdo. Um bom desenvolvimento textual facilita a navegação, tornando a página acessível a diferentes públicos.
 
 <ul class="checklist">
@@ -70,7 +70,7 @@ Textos bem estruturados e semanticamente organizados são essenciais para a aces
 
 
  
-## **Imagens** [\[2\]](#referencias)
+## **Imagens** <sup>[\[2\]](#referencias)</sup>
 Imagens acessíveis dependem de um bom desenvolvimento estrutural, como o uso de textos alternativos (alt text) que descrevem seu conteúdo para leitores de tela. Essa prática garante que informações visuais sejam compreendidas por pessoas com deficiência visual e melhora a navegação para todos, promovendo uma experiência mais inclusiva.
 
 <ul class="checklist">
@@ -80,7 +80,7 @@ Imagens acessíveis dependem de um bom desenvolvimento estrutural, como o uso de
 
 
 
-## **Semântica** [\[2\]](#referencias)
+## **Semântica** <sup>[\[2\]](#referencias)</sup>
 A semântica no desenvolvimento web consiste no uso adequado de elementos HTML para representar o significado do conteúdo, promovendo acessibilidade, SEO e organização clara. Tags como `<header>` e `<main>` tornam o código mais intuitivo e fácil de interpretar por tecnologias assistivas e navegadores.
 
 <ul class="checklist">
@@ -93,7 +93,7 @@ A semântica no desenvolvimento web consiste no uso adequado de elementos HTML p
 
 
 
-## **Formulários** [\[2\]](#referencias)
+## **Formulários** <sup>[\[2\]](#referencias)</sup>
 Um formulário bem projetado deve ser acessível, intuitivo e funcional. Para isso, é importante utilizar boas práticas, como adicionar labels associados aos campos de entrada para melhorar a navegação e a compreensão, usar `<fieldset>` e `<legend>` para estruturar seções, e incluir atributos como `aria-describedby` e `autocomplete` para melhorar a acessibilidade e usabilidade.
 
 <ul class="checklist">
