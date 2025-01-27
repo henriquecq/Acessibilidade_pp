@@ -94,7 +94,7 @@
 ### 2.10. Animações e Movimentos 
 <ul class="checklist">
     <li><input type="checkbox" id="task1"><label for="task1"> Animações são usadas com moderação e têm controles para pausar ou parar. </label></li>
-    <li><input type="checkbox" id="task2" checked><label for="task2"> Animações são usadas com moderação e têm controles para pausar ou parar. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> Movimentos automáticos são evitados, ou oferecem opções de controle ao usuário. </label></li>
     <li><input type="checkbox" id="task3"><label for="task3">  Efeitos visuais não causam distrações ou sobrecarga cognitiva. </label></li>
 </ul>
 
