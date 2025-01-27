@@ -109,7 +109,6 @@ As boas práticas de design em sites e aplicativos são fundamentais para garant
 
   
 <ul class="checklist">
-    <li><input type="checkbox" id="task1"><label for="task1"> Usar emojis e hashtags de forma acessível.</label></li> 
   <li><input type="checkbox" id="task1"><label for="task1"> Capitalizar a primeira letra de cada palavra em hashtags (ex: #MentoriaDeAcessibilidade).</label></li> 
    <li><input type="checkbox" id="task1"><label for="task1"> Evitar o uso excessivo de emojis para não dificultar a leitura.</label></li> 
 </ul>
@@ -118,7 +117,6 @@ As boas práticas de design em sites e aplicativos são fundamentais para garant
 
   <ul class="checklist">
     <li><input type="checkbox" id="task1"><label for="task1">Certificar-se de que a descrição dos links e botões seja clara e informativa.</label></li> 
-  <li><input type="checkbox" id="task1"><label for="task1"> Exemplo de descrição clara: “faça download da lista de documentos necessários para o certificado”.</label></li> 
 </ul>
   
 ## **Referências**
