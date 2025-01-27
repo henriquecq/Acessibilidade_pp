@@ -26,7 +26,8 @@ A acessibilidade digital não deve ser vista como um complemento, mas como um re
     <li><input type="checkbox" id="task5"><label for="task5">Plano de ação para correção de problemas de acessibilidade identificados.</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Tempo e orçamento específicos previstos para testes e ajustes de acessibilidade.</label></li>
     <li><input type="checkbox" id="task1"><label for="task1"> Requisitos de acessibilidade documentados com base nas normas WCAG e eMAG.</label></li>
-    <li><input type="checkbox" id="task1"><label for="task1">Consideração de usuários com deficiências visuais, auditivas, motoras, cognitivas e outras.</label></li>
+    <li><input type="checkbox" id="task1"><label for="task1">Consideração de usuários com deficiências visuais e auditivas.</label></li>
+    <li><input type="checkbox" id="task1"><label for="task1">Consideração de usuários com deficiências motoras, cognitivas e outras.</label></li>
     <li><input type="checkbox" id="task1"><label for="task1">Realização de pesquisas com usuários com deficiência para entender suas necessidades e dificuldades.</label></li>
     <li><input type="checkbox" id="task1"><label for="task1">Estabelecimento de KPIs (indicadores-chave de desempenho) de acessibilidade para medir o sucesso.</label></li>
 </ul>
