@@ -49,19 +49,6 @@ Estrutura, Estilo, Menus Dropdown e Menus de aplicação
 
   
 
-Figura 1
-
-![Menu Nav](imagens/page_desenv/menu_nav_ul)
-
-Figura 2
-
-![Menu Nav](imagens/page_desenv/menu_nav_ul_hover)
-
-Figura 3
-
-![Menu Nav](imagens/page_desenv/menu_nav_ul_keyboard_select)
-
-  
 
 Menus de navegação são importantes pois refletem a estrutura arquitetural do site, e podem determinar como será a navegação entre as páginas e funcionalidades.
 
@@ -89,11 +76,6 @@ Tabelas sem demarcação estrutural podem criar barreiras de acessibilidade, com
 
   
 
-<p  style="text-align:center;">Figura 4</p>
-
-![Como o website do INEP faz uso de tabelas:](imagens/page_desenv/tabela_INEP.PNG)
-
-  
 
 ## Textos [2](#2)
 Textos bem estruturados e semanticamente organizados são essenciais para a acessibilidade, pois garantem que leitores de tela interpretem corretamente o conteúdo. Um bom desenvolvimento textual facilita a navegação, tornando a página acessível a diferentes públicos.
