@@ -29,7 +29,7 @@ Estrutura, Estilo, Menus Dropdown e Menus de aplicação
     <li><input type="checkbox" id="task4" checked><label for="task4">Identifica o menu, usando a tag "nav", garantindo acesso direto ao menu para os usuários;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Rotulado com atributos como _"aria-label"_ e _"aria-labelledby_", para diferentes menus na mesma página;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Indica a seleção atual do menu, por exemplo, com um rótulo invisível na apresentação, mas presente no documento fonte, assim sendo lido por um leitor de tela;</label></li>
-    <li><input type="checkbox" id="task4" checked><label for="task4">Indica visualmente quando o ponteiro paira sobre o menu;</label></li>
+    <li><input type="checkbox" id="task4" ><label for="task4">Indica visualmente quando o ponteiro paira sobre o menu;</label></li>
     <li><input type="checkbox" id="task4" checked><label for="task4">Indica visualmente quando o ponteiro paira sobre o item da lista;</label></li>
     <li><input type="checkbox" id="task4" checked><label for="task4">Indica visualmente quando o ponteiro paira sobre o link;</label></li>
     <li><input type="checkbox" id="task4" checked><label for="task4">Utiliza código CSS com considerações diferentes dependendo do foco com uso de mouse ou teclado;</label></li>
@@ -53,7 +53,7 @@ Tabelas sem demarcação estrutural podem criar barreiras de acessibilidade, com
 
 <ul class="checklist">
     <li><input type="checkbox" id="task2" checked><label for="task2">Células de cabeçalho são demarcadas com a tag "th";</label></li>
-    <li><input type="checkbox" id="task1"><label for="task1">Células de dados são demarcadas com "td";</label></li>
+    <li><input type="checkbox" id="task1" checked><label for="task1">Células de dados são demarcadas com "td";</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Para tabelas mais complexas, o uso explícito dos atributos (_scope, id, and headers attributes_) pode ser usados.</label></li>
 </ul>
 
