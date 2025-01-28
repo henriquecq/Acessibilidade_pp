@@ -93,3 +93,5 @@ Essa estrutura permite que gerentes de projeto liderem equipes em iniciativas ac
 - [Modelo de Acessibilidade em Governo Eletrônico (eMAG)](https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital/emag)
 - [Acessibilidade na Web: WCAG 2.1](https://www.w3.org/Translations/WCAG21-pt-br/)
 - [Acessibilidade na Web: WCAG 2.1 - Checklist](https://www.w3.org/WAI/WCAG21/quickref/)
+- [Plataformas e Serviços Digitais - Manual de Edição do Site Governo Digital](https://www.gov.br/governodigital/pt-br/plataformas-e-servicos-digitais/manual-de-edicao-do-site-governo-digital)
+- [Manuais Orientadores](https://www.gov.br/ds/downloads/manuais-orientadores)
