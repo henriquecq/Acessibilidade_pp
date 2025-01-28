@@ -26,13 +26,13 @@ Estrutura, Estilo, Menus Dropdown e Menus de aplicação
 <ul class="checklist">
     <li><input type="checkbox" id="task2" checked><label for="task2">Utiliza Lista Desordenada, tag "ul", a maioria dos menus de navegação usa esta abordagem, já que os itens não estão em uma ordem específica;</label></li>
     <li><input type="checkbox" id="task1"><label for="task1">Utiliza Lista Ordenada, tag "ol", quando a sequência dos itens é importante</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Identifica o menu, usando a tag "nav", garantindo acesso direto ao menu para os usuários;</label></li>
+    <li><input type="checkbox" id="task4" checked><label for="task4">Identifica o menu, usando a tag "nav", garantindo acesso direto ao menu para os usuários;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Rotulado com atributos como _"aria-label"_ e _"aria-labelledby_", para diferentes menus na mesma página;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Indica a seleção atual do menu, por exemplo, com um rótulo invisível na apresentação, mas presente no documento fonte, assim sendo lido por um leitor de tela;</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Indica visualmente quando o ponteiro paira sobre o menu;</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Indica visualmente quando o ponteiro paira sobre o item da lista;</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Indica visualmente quando o ponteiro paira sobre o link;</label></li>
-    <li><input type="checkbox" id="task4"><label for="task4">Utiliza código CSS com considerações diferentes dependendo do foco com uso de mouse ou teclado;</label></li>
+    <li><input type="checkbox" id="task4" checked><label for="task4">Indica visualmente quando o ponteiro paira sobre o menu;</label></li>
+    <li><input type="checkbox" id="task4" checked><label for="task4">Indica visualmente quando o ponteiro paira sobre o item da lista;</label></li>
+    <li><input type="checkbox" id="task4" checked><label for="task4">Indica visualmente quando o ponteiro paira sobre o link;</label></li>
+    <li><input type="checkbox" id="task4" checked><label for="task4">Utiliza código CSS com considerações diferentes dependendo do foco com uso de mouse ou teclado;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Utiliza o atributo _roles_ para adicionar semântica para os menus de aplicação;</label></li>
     <li><input type="checkbox" id="task4"><label for="task4">Muda o item do menu utilizando as setas <- e ->;</label></li>
 </ul>
