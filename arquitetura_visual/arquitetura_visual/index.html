@@ -1,0 +1,1085 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://henriquecq.github.io/Acessibilidade_pp/arquitetura_visual/arquitetura_visual/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../../desenvolvimento/desenvolvimento_web/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Arquitetura Visual - Acessibilidade++</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/checklist.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#arquitetura-visual" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Acessibilidade++" class="md-header__button md-logo" aria-label="Acessibilidade++" data-md-component="logo">
+      
+  <img src="../../imagens/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Acessibilidade++
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Arquitetura Visual
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Compartilhar" aria-label="Compartilhar" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Sobre
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Arquitetura Visual
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../desenvolvimento/desenvolvimento_web/" class="md-tabs__link">
+        
+  
+    
+  
+  Desenvolvimento Web
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../estrutura/estrutura/" class="md-tabs__link">
+        
+  
+    
+  
+  Estrutura
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../gp/gestao_de_projetos/" class="md-tabs__link">
+        
+  
+    
+  
+  Gestão de Projetos
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ferramentas/ferramentas/" class="md-tabs__link">
+        
+  
+    
+  
+  Ferramentas
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Acessibilidade++" class="md-nav__button md-logo" aria-label="Acessibilidade++" data-md-component="logo">
+      
+  <img src="../../imagens/logo.png" alt="logo">
+
+    </a>
+    Acessibilidade++
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Arquitetura Visual
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura Visual
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-checklist-para-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Checklist para Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Checklist para Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-design-responsivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Design Responsivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-uso-da-cor" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Uso da Cor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-contraste-de-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3. Contraste de Cores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-interface-e-experiencia-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4. Interface e Experiência do Usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-5-recursos-de-acessibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5. 5. Recursos de Acessibilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-textos-e-paragrafos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6. Textos e Parágrafos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7. Fontes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-links-e-botoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8. Links e Botões
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-conteudo-em-diversos-formatos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9. Conteúdo em Diversos Formatos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-animacoes-e-movimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10. Animações e Movimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11. Formulários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-modais" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12. Modais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-elementos-visuais" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13 Elementos Visuais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../desenvolvimento/desenvolvimento_web/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Desenvolvimento Web
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../estrutura/estrutura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Estrutura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gp/gestao_de_projetos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gestão de Projetos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ferramentas/ferramentas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ferramentas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-checklist-para-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Checklist para Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Checklist para Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-design-responsivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1. Design Responsivo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-uso-da-cor" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2. Uso da Cor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-contraste-de-cores" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3. Contraste de Cores
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-interface-e-experiencia-do-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4. Interface e Experiência do Usuário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-5-recursos-de-acessibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.5. 5. Recursos de Acessibilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-textos-e-paragrafos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.6. Textos e Parágrafos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-fontes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.7. Fontes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-links-e-botoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.8. Links e Botões
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-conteudo-em-diversos-formatos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.9. Conteúdo em Diversos Formatos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-animacoes-e-movimentos" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.10. Animações e Movimentos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#211-formularios" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.11. Formulários
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#212-modais" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.12. Modais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#213-elementos-visuais" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.13 Elementos Visuais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-bibliografia" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Bibliografia
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="arquitetura-visual">Arquitetura Visual</h1>
+<h2 id="1-introducao"><strong>1. Introdução</strong></h2>
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
+    A arquitetura visual, pode ser entendida por um design acessível que é uma abordagem essencial que visa garantir que todas as pessoas, independentemente de suas habilidades ou deficiências, possam interagir com produtos e serviços de forma eficaz. De acordo com o EMAG (Estratégia de Acessibilidade Digital), é fundamental incorporar boas práticas de acessibilidade desde o início do processo de design. Isso inclui considerar aspectos como a legibilidade do texto, a navegação intuitiva e a compatibilidade com tecnologias assistivas.
+  </p>
+</p>
+
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
+    O Guia de Boas Práticas de Acessibilidade enfatiza a importância da inclusão, propondo diretrizes que ajudam a criar interfaces que não apenas atendem aos requisitos legais, mas também promovem uma experiência positiva para todos os usuários. Ao aplicar esses princípios, designers podem garantir que suas criações sejam utilizadas por uma audiência mais ampla, enriquecendo a interação e promovendo a equidade digital.
+  </p>
+</p>
+
+<h2 id="2-checklist-para-design"><strong>2. Checklist para Design</strong></h2>
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
+    Abaixo, será apresentados tudo que é necessário para ter um design acessível em um site desenvolvido. 
+  </p>
+</p>
+
+<h3 id="21-design-responsivo">2.1. Design Responsivo</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1">O layout se adapta a diferentes tamanhos de tela (desktop, tablet, celular).</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">O texto e os elementos são redimensionáveis sem perda de funcionalidade.</label></li> 
+    <li><input type="checkbox" id="task3"><label for="task3">A interface é testada em diferentes dispositivos para garantir a acessibilidade.</label></li>
+</ul>
+
+<h3 id="22-uso-da-cor">2.2. Uso da Cor</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1">As cores são escolhidas considerando a acessibilidade para pessoas com daltonismo.</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> Informações importantes não são transmitidas apenas por meio de cores. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">O contraste entre texto e fundo atende aos padrões recomendados (mínimo de 4.5:1).</label></li>
+</ul>
+
+<h3 id="23-contraste-de-cores">2.3. Contraste de Cores</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1">O contraste entre texto e fundo é adequado (mínimo de 4.5:1 para texto normal e 3:1 para texto grande).</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">O contraste é verificado em diferentes partes da página (títulos, botões, links).</label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">O contraste mínimo recomendado é de 7:1 para elementos de alto contraste.</label></li>
+</ul>
+<p style="text-align: justify;">
+  <p style="text-indent: 30px;">
+    As especificações de contraste de cores, como "4.5:1" e "3:1", referem-se às diretrizes estabelecidas nas Diretrizes de Acessibilidade para Conteúdo Web (WCAG), publicadas pelo W3C (World Wide Web Consortium).
+  </p>
+</p>
+
+<h3 id="24-interface-e-experiencia-do-usuario">2.4. Interface e Experiência do Usuário</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1">A interface é organizada e intuitiva, evitando excesso de informações. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Há espaçamentos adequados entre elementos interativos para facilitar a navegação.</label></li>
+    <li><input type="checkbox" id="task3"><label for="task3"> Os elementos interativos têm áreas de clique suficientemente grandes (mínimo de 44x44 pixels).</label></li>
+</ul>
+
+<h3 id="25-5-recursos-de-acessibilidade">2.5. 5. Recursos de Acessibilidade</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> O site oferece opções de alto contraste e ajuste de tamanho de fonte. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Botões de acessibilidade são facilmente identificáveis e utilizáveis.</label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  Há uma página dedicada a informações sobre acessibilidade e como utilizá-las.</label></li>
+</ul>
+
+<h3 id="26-textos-e-paragrafos">2.6. Textos e Parágrafos</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> Os textos são alinhados à esquerda e evitam frases longas (máximo de 80 caracteres por linha). </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> O uso de caixa alta é limitado, e o alinhamento justificado é evitado.</label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  Parágrafos são curtos e objetivos, facilitando a leitura.</label></li>
+</ul>
+
+<h3 id="27-fontes">2.7. Fontes</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> As fontes são legíveis, com um tamanho mínimo de 18 pontos ou 14 pontos em negrito. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> O espaçamento entre linhas é adequado para facilitar a leitura. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  Fontes rebuscadas ou manuscritas são evitadas. </label></li>
+</ul>
+
+<h3 id="28-links-e-botoes">2.8. Links e Botões</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> Os textos dos links são descritivos e informativos, evitando termos vagos como "clique aqui". </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> Todos os elementos interativos têm um foco de teclado visível. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  Os botões são claramente rotulados e sua função é facilmente compreensível. </label></li>
+</ul>
+
+<h3 id="29-conteudo-em-diversos-formatos">2.9. Conteúdo em Diversos Formatos</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> O site oferece conteúdos em múltiplos formatos (texto, áudio, vídeo). </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> Vídeos possuem legendas e audiodescrição. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  O conteúdo é acessível para diferentes níveis de letramento digital. </label></li>
+</ul>
+
+<h3 id="210-animacoes-e-movimentos">2.10. Animações e Movimentos</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> Animações são usadas com moderação e têm controles para pausar ou parar. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> Movimentos automáticos são evitados, ou oferecem opções de controle ao usuário. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  Efeitos visuais não causam distrações ou sobrecarga cognitiva. </label></li>
+</ul>
+
+<h3 id="211-formularios">2.11. Formulários</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> Os formulários têm campos claramente rotulados e instruções de preenchimento. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> Mensagens de erro são visíveis e compreensíveis, localizadas próximas aos campos problemáticos. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">  O preenchimento de formulários é facilitado, evitando campos desnecessários.</label></li>
+</ul>
+
+<h3 id="212-modais">2.12. Modais</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> Modais são usados com cautela e têm opções claras para fechar. </label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2"> A interação com modais é acessível via teclado. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">   O conteúdo em modais é breve e direto. </label></li>
+</ul>
+
+<h3 id="213-elementos-visuais">2.13 Elementos Visuais</h3>
+<ul class="checklist">
+    <li><input type="checkbox" id="task1"><label for="task1"> O design permite que o elemento com foco seja visualmente evidente (ex: bordas ou sombras).</label></li>
+    <li><input type="checkbox" id="task2" checked><label for="task2">Não são utilizados apenas cores ou características sensoriais para diferenciar elementos. </label></li>
+    <li><input type="checkbox" id="task3"><label for="task3">   O redimensionamento da página não resulta em perda de funcionalidade ou sobreposição de elementos. </label></li>
+</ul>
+
+<h2 id="3-bibliografia"><strong>3. Bibliografia</strong></h2>
+<ul>
+<li>
+<p>3.1. Acessibilidade Legal: Acessibilidade Legal. Disponível em: http://www.acessibilidadelegal.com/. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.2. Acesso Digital: Acesso Digital. Disponível em: http://acessodigital.net/. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.3. Cartilha de Codificação do ePWG: ePWG - Cartilha de Codificação. Disponível em: http://www.governoeletronico.gov.br/eixos-de-atuacao/governo/epwg-padroes-web-em-governo-eletronico/cartilha-de-codificacao. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.4. Modelo de Acessibilidade em Governo Eletrônico (eMAG): eMAG - Modelo de Acessibilidade em Governo Eletrônico. Disponível em: http://www.governoeletronico.gov.br/eixos-de-atuacao/governo/acessibilidade/emag-modelo-de-acessibilidade-em-governo-eletronico. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.5. W3C: W3C - World Wide Web Consortium. Disponível em: http://w3c.br/. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.6. WCAG: WCAG - Web Content Accessibility Guidelines. Disponível em: http://www.w3.org/TR/#tr_Accessibility__All. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.7. WAI-ARIA: WAI-ARIA - Accessible Rich Internet Applications. Disponível em: http://w3.org/standards/techs/aria#w3c_all. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.8. Accessibility Insights for Web: Accessibility Insights for Web. Disponível em: https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni?hl=en. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.9. Google Lighthouse: Google Lighthouse. Disponível em: https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.10. No Coffee: No Coffee. Disponível em: https://addons.mozilla.org/en-US/firefox/addon/nocoffee/. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.11. Disable-HTML: Disable-HTML. Disponível em: https://chrome.google.com/webstore/detail/disable-html/lfhjgihpknekohffabeddfkmoiklonhm. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.12. Colorblindly: Colorblindly. Disponível em: https://chrome.google.com/webstore/detail/colorblindly/floniaahmccleoclneebhhmnjgdfijgg. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.13. Dark Reader: Dark Reader. Disponível em: https://addons.mozilla.org/pt-BR/firefox/addon/darkreader/. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.14. WAVE: WAVE - Evaluation Tool. Disponível em: https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.15. Accessibility Scanner: Accessibility Scanner. Disponível em: https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.scanner. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.16. Level Access: Level Access. Disponível em: https://www.levelaccess.com/. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.17. MDN Web Docs: MDN Web Docs. Disponível em: https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics#sem%C3%A2ntica_em_html. Acesso em: 23 jan. 2025.</p>
+</li>
+<li>
+<p>3.18. Accessibility Monitor Plus: Access Monitor Plus. Disponível em: https://accessmonitor.acessibilidade.gov.pt/. Acesso em: 23 jan. 2025.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.instant.progress", "navigation.instant.preview", "navigation.tracking", "navigation.tabs.sticky", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+        <script src="../../js/checklist.js"></script>
+      
+    
+  </body>
+</html>
